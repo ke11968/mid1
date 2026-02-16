@@ -1,0 +1,18 @@
+.plist {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 12px;
+}
+
+.plist__empty {
+	color: #666;
+	padding: 20px;
+	text-align: center;
+}
+
+@media (max-width: 420px) {
+	.plist {
+		grid-template-columns: 1fr;
+	}
+}
+.plist__wrap{padding:8px}

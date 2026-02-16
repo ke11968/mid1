@@ -1,0 +1,39 @@
+.page--details {
+	padding: 24px;
+}
+
+.details {
+	display: flex;
+	gap: 16px;
+	align-items: flex-start;
+	margin-top: 12px;
+	flex-wrap: wrap;
+}
+
+.details__img {
+	width: 320px;
+	height: 320px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.details__info {
+	flex: 1;
+	min-width: 280px;
+}
+
+.details__info h2 {
+	margin-top: 0;
+}
+
+.details__desc {
+	color: #444;
+}
+
+@media (max-width: 720px) {
+	.details__img {
+		width: 240px;
+		height: 240px;
+	}
+}
+
